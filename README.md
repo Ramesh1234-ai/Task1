@@ -280,20 +280,6 @@ The application handles various error scenarios:
 - **Real-time Updates**: Data loads and updates without page refresh
 - **Search Functionality**: Client-side filtering for instant results
 - **Confirmation Dialogs**: Prevents accidental deletions
-
-## Future Enhancements
-
-- Add edit functionality for students
-- Add edit functionality for tasks
-- Add teacher management
-- Add marks/grades system
-- Add email notifications
-- Add bulk upload of students
-- Add export to CSV/PDF
-- Add more detailed analytics
-- Add file attachments for tasks
-- Add student attendance tracking
-
 ## Troubleshooting
 
 ### Backend won't start
@@ -305,28 +291,14 @@ The application handles various error scenarios:
 - Ensure admin user exists in database
 - Check MongoDB URI in `.env`
 - Verify backend server is running
-
 ### API calls fail
 - Check if CORS is enabled (it is by default)
 - Verify API baseURL in `frontend/src/services/api.js` is correct
 - Ensure backend is running at the correct port
-
 ### Token expires too quickly
 - Modify token expiration in `backend/controller/Student.controller.js`
 - Default expiration is 7 days
-
 ## Contributing
-
 Feel free to fork this project and submit pull requests!
-
-## License
-
-This project is open source and available under the MIT License.
-
-## Contact & Support
-
-For issues or questions, please create an issue in the repository.
-
 ---
-
 **Happy learning! 🎓**
